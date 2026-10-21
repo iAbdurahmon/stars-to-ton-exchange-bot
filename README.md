@@ -7,6 +7,12 @@ and no operator in the loop. It has been running in production since March 2025 
 handles a deferred "top up now, withdraw later" flow required by Telegram's Stars refund
 window, in three languages (English, Russian, Uzbek).
 
+## Links
+
+- Bot: [@XTRTon_bot](https://t.me/XTRTon_bot) — the live service
+- Channel: [@XTRTON](https://t.me/XTRTON) — release notes and rate changes
+- Support: [@XTRTON_ADMIN](https://t.me/XTRTON_ADMIN)
+
 ## Status
 
 | | |
