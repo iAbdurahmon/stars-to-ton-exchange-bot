@@ -15,12 +15,12 @@ window, in three languages (English, Russian, Uzbek).
 
 ## Status
 
-| | |
-|---|---|
+| |            |
+|---|------------|
 | In production since | March 2025 |
-| Registered users | 3,000+ |
-| Monthly active users | ~100 |
-| Exchange volume | $3,000+ |
+| Registered users | 3,000+     |
+| Monthly active users | ~100       |
+| Exchange volume | $3,500+    |
 
 ## Features
 
