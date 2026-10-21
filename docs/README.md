@@ -1,23 +1,39 @@
 # Screenshots
 
-Add the following files to this folder. The README references them by these exact names.
+Files currently used by the README:
 
-| File | What to capture |
+| File | What it shows |
 |---|---|
-| `01-main-menu.png` | Main menu after `/start`: welcome text, current rate, the four buttons |
-| `02-exchange-amount.png` | Exchange flow: "How many Stars do you want to exchange", min/max and rate |
-| `03-confirmation.png` | Confirmation screen: Stars to pay, TON to receive, wallet address, memo |
-| `04-payout-success.png` | The Telegram Stars invoice and the "Payment has been successful" message |
-| `05-profile.png` | Profile: language, balance, available to withdraw |
-| `06-waitlist.png` | Waitlist: request date, withdrawable date, days remaining |
-| `07-admin-statistics.png` | Output of the statistics command (users, exchanges, Stars, TON) |
+| `01-main-menu.png` | Main menu after `/start`, with the live exchange rate |
+| `02-top-up.png` | Top-up flow: amount prompt, confirmation, Telegram Stars invoice |
+| `03-profile.png` | Profile: language, held balance, balance available to withdraw |
+| `04-withdraw.png` | Withdrawal: amount, wallet entry, memo question, confirmation |
+| `05-confirmation-ru.png` | Exchange confirmation screen in the Russian interface |
 
-Before committing a screenshot, blur or crop out:
+Masked in the committed versions: TON wallet addresses (`04`, `05`) and the Telegram user ID (`03`).
+
+## Still worth adding
+
+- The successful-payout message (`✅ Payment has been successful`) following a Stars invoice
+- The waitlist view, showing request date, withdrawable date and days remaining
+- The admin statistics output (total users, exchanges, Stars received, TON sent)
+
+## Before committing a new screenshot
+
+Redact with a solid filled rectangle rather than blur — blur and pixelation can be partially
+reversed. Cover:
 
 - wallet addresses and transaction hashes
-- Telegram user IDs, usernames and real names other than your own
-- bot token fragments, API keys and any URL containing a key
+- Telegram IDs, usernames and real names other than your own
+- bot token fragments, API keys, and any URL containing a key
 - server IPs and hostnames
-- admin usernames and private channel names, if you would rather not publish them
+- private log/exchange channel names, if you would rather not publish them
 
-PNG is preferred. Keep each file under about 500 KB so the README stays fast to load.
+Git keeps every committed file forever, so redact before the commit — removing an image in a
+later commit does not remove it from history.
+
+Keep images as PNG and under about 500 KB:
+
+```bash
+sips -Z 1000 new-screenshot.png
+```

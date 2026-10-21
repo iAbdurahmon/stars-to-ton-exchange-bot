@@ -125,17 +125,35 @@ refuses to move Stars that would take a balance negative.
 
 ## Screenshots
 
-Screenshots live in [`docs/`](docs/).
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/01-main-menu.png" width="400" alt="Main menu"><br>
+      <sub>Main menu, with the live exchange rate</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/03-profile.png" width="400" alt="Profile"><br>
+      <sub>Profile: held balance and balance available to withdraw</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/02-top-up.png" width="400" alt="Top-up flow"><br>
+      <sub>Top-up: amount, confirmation and the Telegram Stars invoice</sub>
+    </td>
+    <td align="center">
+      <img src="docs/05-confirmation-ru.png" width="400" alt="Confirmation screen in Russian"><br>
+      <sub>Confirmation screen in Russian — the same flow runs in English and Uzbek</sub>
+    </td>
+  </tr>
+</table>
 
-| | |
-|---|---|
-| Main menu | ![Main menu](docs/01-main-menu.png) |
-| Exchange flow — amount and rate | ![Exchange amount](docs/02-exchange-amount.png) |
-| Confirmation screen | ![Confirmation](docs/03-confirmation.png) |
-| Stars invoice and successful payout | ![Payout](docs/04-payout-success.png) |
-| Profile and balances | ![Profile](docs/05-profile.png) |
-| Waitlist | ![Waitlist](docs/06-waitlist.png) |
-| Admin statistics | ![Statistics](docs/07-admin-statistics.png) |
+<p align="center">
+  <img src="docs/04-withdraw.png" width="430" alt="Withdrawal flow"><br>
+  <sub>Withdrawal: amount checked against the available balance, TON address validation,<br>optional memo, and a confirmation screen showing exactly what will be sent</sub>
+</p>
+
+Wallet addresses and the Telegram ID are masked in these screenshots.
 
 ## A note on the source
 
